@@ -11075,6 +11075,71 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </deviceset>
 </devicesets>
 </library>
+<library name="usb_microB_10118192">
+<packages>
+<package name="MICRO_B_10118192">
+<smd name="P3" x="0" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="P4" x="0.65" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="P2" x="-0.65" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="P5" x="1.3" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="P1" x="-1.3" y="2.7" dx="1.35" dy="0.4" layer="1" rot="R270"/>
+<smd name="SHEL1" x="-3.1" y="2.575" dx="1.6" dy="2.1" layer="1" rot="R270"/>
+<smd name="SHEL6" x="3.1" y="2.575" dx="1.6" dy="2.1" layer="1" rot="R270"/>
+<smd name="SHEL4" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SHEL3" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SHEL5" x="3.8" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="SHEL2" x="-3.8" y="0" dx="1.8" dy="1.9" layer="1"/>
+<wire x1="-4.9" y1="-1.45" x2="4.9" y2="-1.45" width="0.1524" layer="21"/>
+<text x="5.15" y="-1.45" size="0.4064" layer="51">PCB END</text>
+<wire x1="0" y1="2.8" x2="-3.45" y2="2.8" width="0.1524" layer="51"/>
+<wire x1="-3.45" y1="2.8" x2="-3.45" y2="-1.45" width="0.1524" layer="51"/>
+<wire x1="0" y1="2.8" x2="3.45" y2="2.8" width="0.1524" layer="51"/>
+<wire x1="3.45" y1="2.8" x2="3.45" y2="-1.45" width="0.1524" layer="51"/>
+<text x="-3.9" y="3.95" size="0.6096" layer="25">NAME</text>
+<text x="4.45" y="2.5" size="0.6096" layer="27">VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MICRO_B_10118192">
+<description>MICRO USB B AMPHENOL 10118192 0001L</description>
+<wire x1="-7.62" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<pin name="P1" x="-12.7" y="7.62" length="middle"/>
+<pin name="P2" x="-12.7" y="2.54" length="middle"/>
+<pin name="P3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="P4" x="-12.7" y="-7.62" length="middle"/>
+<pin name="P5" x="-12.7" y="-12.7" length="middle"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95">NAME</text>
+<text x="10.16" y="-17.78" size="1.778" layer="96">VALUE</text>
+<pin name="SHELL" x="0" y="-20.32" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICRO_USB_B-AMPHENOL(10118192)">
+<description>MICRO USB B TYPE RECEPTACLE (10118192) - AMPHENOL</description>
+<gates>
+<gate name="G$1" symbol="MICRO_B_10118192" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="MICRO_B_10118192">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="SHELL" pad="SHEL1 SHEL2 SHEL3 SHEL4 SHEL5 SHEL6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11176,6 +11241,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="KK-156-3" device="" package3d_urn="urn:adsk.eagle:package:8078801/1"/>
 <part name="GND29" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="U$1" library="usb_microB_10118192" deviceset="MICRO_USB_B-AMPHENOL(10118192)" device=""/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11371,22 +11439,22 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="VALUE" x="214.63" y="205.74" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="214.63" y="189.738" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U3" gate="A" x="256.54" y="193.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="269.962759375" y="175.5093" size="2.086959375" layer="95" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="260.279990625" y="174.391" size="2.08625" layer="96" ratio="10" rot="SMR0"/>
+<instance part="U3" gate="A" x="248.92" y="193.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="262.342759375" y="175.5093" size="2.086959375" layer="95" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="252.659990625" y="174.391" size="2.08625" layer="96" ratio="10" rot="SMR0"/>
 </instance>
-<instance part="U4" gate="G$1" x="289.56" y="215.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="284.97811875" y="218.463290625" size="1.017309375" layer="95" rot="R270"/>
-<attribute name="VALUE" x="282.9587" y="218.460509375" size="1.0162" layer="96" rot="R270"/>
+<instance part="U4" gate="G$1" x="281.94" y="215.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="277.35811875" y="218.463290625" size="1.017309375" layer="95" rot="R270"/>
+<attribute name="VALUE" x="275.3387" y="218.460509375" size="1.0162" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="279.4" y="198.12" smashed="yes">
-<attribute name="VALUE" x="279.4" y="200.914" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="271.78" y="198.12" smashed="yes">
+<attribute name="VALUE" x="271.78" y="200.914" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND21" gate="1" x="279.4" y="175.26" smashed="yes">
 <attribute name="VALUE" x="279.4" y="175.006" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND22" gate="1" x="297.18" y="223.52" smashed="yes" rot="R180">
-<attribute name="VALUE" x="297.18" y="223.774" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="GND22" gate="1" x="289.56" y="223.52" smashed="yes" rot="R180">
+<attribute name="VALUE" x="289.56" y="223.774" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="J5" gate="G$1" x="15.24" y="66.04" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="15.24" y="81.026" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -11505,6 +11573,15 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="GND29" gate="1" x="297.18" y="83.82" smashed="yes">
 <attribute name="VALUE" x="297.18" y="83.566" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="U$1" gate="G$1" x="317.5" y="193.04" smashed="yes" rot="MR180"/>
+<instance part="R14" gate="G$1" x="304.8" y="213.36" smashed="yes">
+<attribute name="NAME" x="300.99" y="214.8586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="300.99" y="210.058" size="1.778" layer="96"/>
+</instance>
+<instance part="C12" gate="G$1" x="304.8" y="220.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="305.816" y="221.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="298.196" y="221.869" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11580,8 +11657,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VCC"/>
-<wire x1="276.86" y1="195.58" x2="279.4" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="195.58" x2="279.4" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="195.58" x2="271.78" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="195.58" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -11739,39 +11816,31 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="GND"/>
-<wire x1="276.86" y1="182.88" x2="279.4" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="182.88" x2="279.4" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="182.88" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="294.64" y1="218.44" x2="297.18" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="218.44" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="312.42" y1="195.58" x2="307.34" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<wire x1="287.02" y1="218.44" x2="289.56" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="218.44" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
+<junction x="289.56" y="218.44"/>
+<wire x1="289.56" y1="205.74" x2="289.56" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P5"/>
+<wire x1="304.8" y1="205.74" x2="289.56" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P4"/>
+<wire x1="304.8" y1="200.66" x2="289.56" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="200.66" x2="289.56" y2="205.74" width="0.1524" layer="91"/>
+<junction x="289.56" y="205.74"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="299.72" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="220.98" x2="297.18" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="297.18" y1="218.44" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="213.36" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="218.44" x2="289.56" y2="218.44" width="0.1524" layer="91"/>
 <junction x="297.18" y="218.44"/>
-<wire x1="307.34" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="195.58" x2="297.18" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="195.58" x2="307.34" y2="205.74" width="0.1524" layer="91"/>
-<junction x="307.34" y="195.58"/>
-<wire x1="307.34" y1="205.74" x2="335.28" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="205.74" x2="335.28" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="195.58" x2="335.28" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="193.04" x2="335.28" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="190.5" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="187.96" x2="335.28" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="185.42" x2="335.28" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="182.88" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="185.42" x2="335.28" y2="185.42" width="0.1524" layer="91"/>
-<junction x="335.28" y="185.42"/>
-<wire x1="332.74" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
-<junction x="335.28" y="187.96"/>
-<wire x1="332.74" y1="190.5" x2="335.28" y2="190.5" width="0.1524" layer="91"/>
-<junction x="335.28" y="190.5"/>
-<wire x1="332.74" y1="193.04" x2="335.28" y2="193.04" width="0.1524" layer="91"/>
-<junction x="335.28" y="193.04"/>
-<wire x1="332.74" y1="195.58" x2="335.28" y2="195.58" width="0.1524" layer="91"/>
-<junction x="335.28" y="195.58"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -12445,43 +12514,50 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <net name="D+_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CH1_IN"/>
-<wire x1="276.86" y1="190.5" x2="287.02" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="190.5" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="C"/>
-<wire x1="287.02" y1="190.5" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="210.82" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
-<junction x="287.02" y="190.5"/>
-<wire x1="287.02" y1="208.28" x2="287.02" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
-<junction x="287.02" y="208.28"/>
-<label x="276.86" y="193.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="279.4" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="210.82" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
+<junction x="279.4" y="190.5"/>
+<wire x1="279.4" y1="208.28" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="208.28" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
+<junction x="279.4" y="208.28"/>
+<label x="269.24" y="193.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="208.28" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="200.66" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P3"/>
+<wire x1="304.8" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="195.58" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CH2_IN"/>
-<wire x1="276.86" y1="187.96" x2="289.56" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="B"/>
-<wire x1="289.56" y1="187.96" x2="312.42" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="213.36" x2="289.56" y2="205.74" width="0.1524" layer="91"/>
-<junction x="289.56" y="187.96"/>
-<wire x1="289.56" y1="205.74" x2="289.56" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="205.74" x2="289.56" y2="205.74" width="0.1524" layer="91"/>
-<junction x="289.56" y="205.74"/>
-<label x="276.86" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="281.94" y1="187.96" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="213.36" x2="281.94" y2="205.74" width="0.1524" layer="91"/>
+<junction x="281.94" y="187.96"/>
+<wire x1="281.94" y1="205.74" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="205.74" x2="281.94" y2="205.74" width="0.1524" layer="91"/>
+<junction x="281.94" y="205.74"/>
+<label x="269.24" y="185.42" size="1.27" layer="95" xref="yes"/>
 <wire x1="223.52" y1="198.12" x2="223.52" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="4"/>
 <wire x1="223.52" y1="198.12" x2="218.44" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P2"/>
+<wire x1="304.8" y1="190.5" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="190.5" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="A"/>
-<wire x1="292.1" y1="215.9" x2="292.1" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
-<label x="307.34" y="185.42" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="284.48" y1="215.9" x2="284.48" y2="185.42" width="0.1524" layer="91"/>
+<label x="294.64" y="182.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P1"/>
+<wire x1="304.8" y1="185.42" x2="284.48" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="REGIN"/>
@@ -12542,17 +12618,17 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <net name="D-IN" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CH2_OUT"/>
-<label x="228.6" y="190.5" size="1.27" layer="95" xref="yes"/>
+<label x="226.06" y="190.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="SV1" gate="G$1" pin="8"/>
-<wire x1="236.22" y1="193.04" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="193.04" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D+IN" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CH1_OUT"/>
-<label x="228.6" y="198.12" size="1.27" layer="95" xref="yes"/>
+<label x="226.06" y="198.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="SV1" gate="G$1" pin="6"/>
-<wire x1="218.44" y1="195.58" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="195.58" x2="228.6" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12601,6 +12677,17 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="X3" gate="-1" pin="S"/>
 <wire x1="307.34" y1="91.44" x2="304.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="304.8" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SHELL"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="213.36" x2="317.5" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="220.98" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
+<junction x="317.5" y="213.36"/>
 </segment>
 </net>
 </nets>
