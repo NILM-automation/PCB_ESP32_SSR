@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+** Creating circuit file "test_INA157.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "F:/Cadence/SPB_17.2/tools/pspice/library/INA157.LIB" 
+* From [PSPICE NETLIST] section of F:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5 0 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

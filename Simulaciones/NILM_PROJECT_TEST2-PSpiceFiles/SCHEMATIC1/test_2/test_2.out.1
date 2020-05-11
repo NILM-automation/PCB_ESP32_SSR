@@ -1,0 +1,44 @@
+
+**** 05/09/20 15:31:09 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test_2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of F:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3 0 0.001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NILM_PROJECT_TEST2
+X_U1         VIN 0 V+ V- VOUT 0 N00167 N00171 INA821 
+V_V1         VIN 0 3.3
+R_R1         N00171 N00167  49.4k TC=0,0 
+V_V2         V+ 0 15
+V_V3         0 V- 15
+
+**** RESUMING test_2.cir ****
+.END
+
+ERROR(ORPSIM-15108): Subcircuit INA821 used by X_U1 is undefined
+

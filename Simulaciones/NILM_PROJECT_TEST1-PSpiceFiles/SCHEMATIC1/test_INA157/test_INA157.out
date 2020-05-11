@@ -1,0 +1,202 @@
+
+**** 05/09/20 14:52:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test_INA157.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "F:/Cadence/SPB_17.2/tools/pspice/library/INA157.LIB" 
+* From [PSPICE NETLIST] section of F:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5 0 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NILM_PROJECT_TEST1
+V_V2         V+ 0 15
+V_V3         0 V- 15
+X_U1         0 VOUT V+ V- VOUT 0 VIN INA157
+V_V4         VIN 0  
++PULSE 0 3.3 200m 1n 1n 200m 400m
+X_U2         0 VOUT2 V+ V- VOUT2 0 VOUT INA157
+
+**** RESUMING test_INA157.cir ****
+.END
+
+**** 05/09/20 14:52:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.dx      X_U2.X1.dx      
+          IS  800.000000E-18  800.000000E-18 
+
+
+**** 05/09/20 14:52:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.qx      X_U2.X1.qx      
+               NPN             NPN             
+       LEVEL    1               1            
+          IS  800.000000E-18  800.000000E-18 
+          BF  448             448            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 05/09/20 14:52:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)   15.0000  (   V-)  -15.0000  (  VIN)    0.0000  ( VOUT) 2.535E-06      
+
+(VOUT2)-2.535E-06  (X_U1.13)-994.6E-06                   (X_U1.14)-995.5E-06    
+
+(X_U2.13)-994.6E-06                   (X_U2.14)-995.5E-06                       
+
+(X_U1.X1.6)-30.87E-09                 (X_U1.X1.7) 6.274E-06                     
+
+(X_U1.X1.8) 6.274E-06                 (X_U1.X1.9)    0.0000                     
+
+(X_U2.X1.6)-29.97E-09                 (X_U2.X1.7)-1.295E-06                     
+
+(X_U2.X1.8)-1.295E-06                 (X_U2.X1.9)    0.0000                     
+
+(X_U1.X1.10)    -.8969                (X_U1.X1.11)   14.7420                    
+
+(X_U1.X1.12)   14.7420                (X_U1.X1.13)    -.6647                    
+
+(X_U1.X1.14)    -.6647                (X_U1.X1.20)     .5058                    
+
+(X_U1.X1.21)    0.0000                (X_U1.X1.22)    0.0000                    
+
+(X_U1.X1.53)   12.5000                (X_U1.X1.54)  -12.8000                    
+
+(X_U1.X1.90) 249.3E-06                (X_U1.X1.91)   70.0000                    
+
+(X_U1.X1.92)  -70.0000                (X_U1.X1.99)    0.0000                    
+
+(X_U2.X1.10)    -.8969                (X_U2.X1.11)   14.7420                    
+
+(X_U2.X1.12)   14.7420                (X_U2.X1.13)    -.6647                    
+
+(X_U2.X1.14)    -.6647                (X_U2.X1.20)     .4773                    
+
+(X_U2.X1.21)    0.0000                (X_U2.X1.22)    0.0000                    
+
+(X_U2.X1.53)   12.5000                (X_U2.X1.54)  -12.8000                    
+
+(X_U2.X1.90) 82.67E-06                (X_U2.X1.91)   70.0000                    
+
+(X_U2.X1.92)  -70.0000                (X_U2.X1.99)    0.0000                
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -4.861E-03
+    V_V3        -4.863E-03
+    V_V4        -1.658E-07
+    X_U1.X1.vb  -3.087E-13
+    X_U1.X1.vc   1.250E-11
+    X_U1.X1.ve   1.280E-11
+    X_U1.X1.vlim   2.493E-07
+    X_U1.X1.vlp  -7.000E-11
+    X_U1.X1.vln  -7.000E-11
+    X_U1.X1.VQ1   2.493E-07
+    X_U1.X1.VQ2   5.066E-13
+    X_U2.X1.vb  -2.997E-13
+    X_U2.X1.vc   1.250E-11
+    X_U2.X1.ve   1.280E-11
+    X_U2.X1.vlim   8.267E-08
+    X_U2.X1.vlp  -7.000E-11
+    X_U2.X1.vln  -7.000E-11
+    X_U2.X1.VQ1   8.267E-08
+    X_U2.X1.VQ2   4.781E-13
+
+    TOTAL POWER DISSIPATION   1.46E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/09/20 14:52:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .66
+

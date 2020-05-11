@@ -1,0 +1,7 @@
+* source NILM_PROJECT_TEST1
+V_V2         V+ 0 15
+V_V3         0 V- 15
+X_U1         0 VOUT V+ V- VOUT 0 VIN INA157
+V_V4         VIN 0  
++PULSE 0 3.3 200m 1n 1n 200m 400m
+X_U2         0 VOUT2 V+ V- VOUT2 0 VOUT INA157

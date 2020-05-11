@@ -1,0 +1,179 @@
+
+**** 05/08/20 11:52:22 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\ac.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../INA157.lib" 
+* From [PSPICE NETLIST] section of F:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 10e6
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source INA157
+V_V1         N14290150 0 15
+R_RL         0 VOUT  20k  
+V_VIN         VIN N14296625 DC 0 AC 1 0
+V_V2         0 N14295340 15
+V_Vref         N14295987 0 0
+X_U1         N14296625 VIN N14290150 N14295340 VOUT N14295987 VOUT INA157
+
+**** RESUMING AC.cir ****
+.END
+
+**** 05/08/20 11:52:22 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\ac.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.dx      
+          IS  800.000000E-18 
+
+
+**** 05/08/20 11:52:22 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\ac.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.qx      
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  448            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 05/08/20 11:52:22 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\ac.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    -.0015  ( VOUT) 1.227E-06  (X_U1.13)    -.0015                       
+
+(X_U1.14)    -.0015                   (N14290150)   15.0000                     
+
+(N14295340)  -15.0000                 (N14295987)    0.0000                     
+
+(N14296625)    -.0015                 (X_U1.X1.6)-30.76E-09                     
+
+(X_U1.X1.7) 4.961E-06                 (X_U1.X1.8) 4.961E-06                     
+
+(X_U1.X1.9)    0.0000                 (X_U1.X1.10)    -.8974                    
+
+(X_U1.X1.11)   14.7420                (X_U1.X1.12)   14.7420                    
+
+(X_U1.X1.13)    -.6652                (X_U1.X1.14)    -.6652                    
+
+(X_U1.X1.20)     .5058                (X_U1.X1.21)    0.0000                    
+
+(X_U1.X1.22)    0.0000                (X_U1.X1.53)   12.5000                    
+
+(X_U1.X1.54)  -12.8000                (X_U1.X1.90) 249.0E-06                    
+
+(X_U1.X1.91)   70.0000                (X_U1.X1.92)  -70.0000                    
+
+(X_U1.X1.99)    0.0000                
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.430E-03
+    V_VIN        3.739E-11
+    V_V2        -2.432E-03
+    V_Vref      -2.488E-07
+    X_U1.X1.vb  -3.076E-13
+    X_U1.X1.vc   1.250E-11
+    X_U1.X1.ve   1.280E-11
+    X_U1.X1.vlim   2.490E-07
+    X_U1.X1.vlp  -7.000E-11
+    X_U1.X1.vln  -7.000E-11
+    X_U1.X1.VQ1   2.490E-07
+    X_U1.X1.VQ2   5.066E-13
+
+    TOTAL POWER DISSIPATION   7.29E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/08/20 11:52:22 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\ac.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

@@ -1,0 +1,122 @@
+
+**** 05/08/20 11:50:46 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\dc.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../INA157.lib" 
+* From [PSPICE NETLIST] section of F:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_VIN -20 20 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source INA157
+V_V1         N14290150 0 15
+R_RL         0 VOUT  20k  
+V_VIN         VIN N14296625 DC 0 AC 1 0
+V_V2         0 N14295340 15
+V_Vref         N14295987 0 0
+X_U1         N14296625 VIN N14290150 N14295340 VOUT N14295987 VOUT INA157
+
+**** RESUMING DC.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file INA157.ind for library file INA157.lib.
+
+INFO(ORPSIM-15422): Making new index file INA157.ind for library file INA157.lib.
+
+Index has 2 entries from 1 file(s).
+
+**** 05/08/20 11:50:46 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\dc.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.dx      
+          IS  800.000000E-18 
+
+
+**** 05/08/20 11:50:46 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\dc.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.qx      
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  448            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+
+          JOB CONCLUDED
+
+**** 05/08/20 11:50:46 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC"  [ E:\PCB_ESP_CON_USB\Datasheets\INA157U\INA157_PSPICE_AIO\ina157-pspicefiles\schematic1\dc.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .97
+

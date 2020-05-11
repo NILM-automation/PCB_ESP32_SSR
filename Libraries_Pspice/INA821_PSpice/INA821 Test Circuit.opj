@@ -1,0 +1,70 @@
+(ExpressProject "INA821 Test Circuit"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\ina821 test circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\ina821 test circuit-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\ina821 test circuit-pspicefiles\schematic1\ina821 test circuit.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ina821 test circuit-pspicefiles\schematic1\ina821 test circuit.sim"
+        (DisplayName "SCHEMATIC1-INA821 Test Circuit")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\ina821.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\ina821.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (INA821
+      (FullPartName "INA821.Normal")
+      (LibraryName
+         "C:\MACROMODELS\MODELS\INA821\RELEASE FILES\APL\INA821_PSPICE\INA821.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Macromodels\Models\INA821\Release Files\APL\INA821_PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit.dsn")
+      (Path "Design Resources"
+         "C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 437"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 25 1708 25 504")
+        (Scroll "0 308")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\MACROMODELS\MODELS\INA821\RELEASE\RTM\INA821_PSPICE\INA821 TEST CIRCUIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "a0282827"))

@@ -1,0 +1,8 @@
+* source NILM_PROJECT_TEST2
+X_U1         VIN 0 V+ V- VOUT 0 N00879 N00171 INA821 
+R_R1         N00171 N00879  24.7k TC=0,0 
+V_V2         V+ 0 15
+V_V3         0 V- 15
+V_V4         VIN 0  
++PULSE 0 3.3 200m 1n 1n 200m 400m
+R_R2         0 VOUT  1k TC=0,0 

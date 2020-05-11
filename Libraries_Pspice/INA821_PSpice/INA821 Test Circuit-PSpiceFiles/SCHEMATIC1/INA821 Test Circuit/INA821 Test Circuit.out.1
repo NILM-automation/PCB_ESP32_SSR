@@ -1,0 +1,104 @@
+
+**** 11/28/18 16:46:01 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "INA821 Test Circuit.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ina821.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0282827\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2m 0 2u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source INA821 TEST CIRCUIT
+V_Vcc         N11906 0 15Vdc
+R_RL         0 OUT  10k TC=0,0 
+R_RG         N12280 N12274  1T TC=0,0 
+V_VIN         N12170 0  AC 0
++SIN 0 100m 1k 0 0 0
+V_Vee         N12296 0 -15Vdc
+E_E1         N12164 0 N12170 0 0.5
+C_CL         0 OUT  15p  TC=0,0 
+E_E2         0 N12256 N12170 0 0.5
+X_U1         N12164 N12256 N11906 N12296 OUT 0 N12274 N12280 INA821 
+
+**** RESUMING "INA821 Test Circuit.cir" ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file ina821.ind for library file ina821.lib.
+
+INFO(ORPSIM-15422): Making new index file ina821.ind for library file ina821.lib.
+
+Index has 25 entries from 1 file(s).
+
+.subckt FEMT_INA821  1 2
+.param FLWF=0.11
+.param NLFF=370
+.param NVRF=100
+.param GLFF={PWR(FLWF,0.25)*NLFF/1164}
+.param RNVF={1.184*PWR(NVRF,2)}
+.model DVNF D KF={PWR(FLWF,0.5)/1E11} IS=1.0E-16
+I1 0 7 10E-3
+I2 0 8 10E-3
+D1 7 0 DVNF
+D2 8 0 DVNF
+E1 3 6 7 8 {GLFF}
+R1 3 0 1E9
+R2 3 0 1E9
+R3 3 6 1E9
+E2 6 4 5 0 10
+R4 5 0 {RNVF}
+R5 5 0 {RNVF}
+R6 3 4 1E9
+R7 4 0 1E9
+G1 1 2 3 4 1E-6
+.ends FEMT_0 
+------$
+ERROR(ORPSIM-16362): Name on .ENDS does not match .SUBCKT
+
+.subckt VNSE_IN_1_INA821  1 2
+.param FLW=1
+.param NLF=4.3
+.param NVR=4.3
+.param GLF={PWR(FLW,0.25)*NLF/1164}
+.param RNV={1.184*PWR(NVR,2)}
+.model DVN D KF={PWR(FLW,0.5)/1E11} IS=1.0E-16
+I1 0 7 10E-3
+I2 0 8 10E-3
+D1 7 0 DVN
+D2 8 0 DVN
+E1 3 6 7 8 {GLF}
+R1 3 0 1E9
+R2 3 0 1E9
+R3 3 6 1E9
+E2 6 4 5 0 10
+R4 5 0 {RNV}
+R5 5 0 {RNV}
+R6 3 4 1E9
+R7 4 0 1E9
+E3 1 2 3 4 1
+.ends VNSE_IN_1 
+------$
+ERROR(ORPSIM-16362): Name on .ENDS does not match .SUBCKT
+

@@ -1,0 +1,14 @@
+.ALIASES
+V_V2            V2(+=V+ -=0 ) CN @NILM_PROJECT_TEST1.SCHEMATIC1(sch_1):INS458@SOURCE.VDC.Normal(chips)
+V_V3            V3(+=0 -=V- ) CN @NILM_PROJECT_TEST1.SCHEMATIC1(sch_1):INS474@SOURCE.VDC.Normal(chips)
+X_U1            U1(1=0 2=VOUT 3=V+ 4=V- 5=VOUT 8=0 9=VIN ) CN
++@NILM_PROJECT_TEST1.SCHEMATIC1(sch_1):INS830@INA157.INA157.Normal(chips)
+V_V4            V4(+=VIN -=0 ) CN @NILM_PROJECT_TEST1.SCHEMATIC1(sch_1):INS3633@SOURCE.VPULSE.Normal(chips)
+X_U2            U2(1=0 2=VOUT2 3=V+ 4=V- 5=VOUT2 8=0 9=VOUT ) CN
++@NILM_PROJECT_TEST1.SCHEMATIC1(sch_1):INS4694@INA157.INA157.Normal(chips)
+_    _(V+=V+)
+_    _(V-=V-)
+_    _(Vin=VIN)
+_    _(Vout=VOUT)
+_    _(Vout2=VOUT2)
+.ENDALIASES

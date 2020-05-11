@@ -1,0 +1,334 @@
+
+**** 05/09/20 10:42:04 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test_INA157.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "F:/Cadence/SPB_17.2/tools/pspice/library/INA157.LIB" 
+* From [PSPICE NETLIST] section of F:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5 0 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NILM_PROJECT_TEST1
+R_R1         N00145 0  10k TC=0,0 
+R_R2         N00145 VOUT  10k TC=0,0 
+V_V1         VIN 0 3.3
+V_V2         V+ 0 15
+V_V3         0 V- 15
+X_U1         N00145 VIN V- V+ VOUT VOUT 0 INA157
+R_R3         0 VOUT  10k TC=0,0 
+
+**** RESUMING test_INA157.cir ****
+.END
+
+**** 05/09/20 10:42:04 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.dx      
+          IS  800.000000E-18 
+
+
+**** 05/09/20 10:42:04 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X1.qx      
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  448            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+Starting pseudo-transient algorithm.
+
+ERROR -- Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)     .7473  (   V-)    -.7473  (  VIN)     .1644  ( VOUT)    -.0075      
+
+(N00145)    -.0294 (X_U1.13)    -.0659                   (X_U1.14)    -.0911    
+
+(X_U1.X1.6)    -.0014                 (X_U1.X1.7)    -.0072                     
+
+(X_U1.X1.8)    -.0072                 (X_U1.X1.9)    0.0000                     
+
+(X_U1.X1.10)    -.7177                (X_U1.X1.11)    -.6957                    
+
+(X_U1.X1.12)    -.7090                (X_U1.X1.13)    -.7016                    
+
+(X_U1.X1.14)    -.7123                (X_U1.X1.20)     .5349                    
+
+(X_U1.X1.21)    0.0000                (X_U1.X1.22)    0.0000                    
+
+(X_U1.X1.53)    -.8719                (X_U1.X1.54)     .8569                    
+
+(X_U1.X1.90) 6.157E-06                (X_U1.X1.91)    3.4875                    
+
+(X_U1.X1.92)   -3.4875                (X_U1.X1.99)    0.0000                
+
+
+  These voltages failed to converge:
+
+    V(N00145)                 =   -28.93mV  \   -29.42mV
+    V(VOUT)                   =   -6.083mV  \   -7.473mV
+    V(X_U1.X1.6)              =     9.73uV  \   -1.387mV
+    V(X_U1.X1.7)              =   -5.845mV  \   -7.242mV
+    V(X_U1.X1.8)              =   -5.845mV  \   -7.242mV
+    V(X_U1.X1.20)             =   535.64mV  \   534.89mV
+
+  These supply currents failed to converge:
+
+    I(X_U1.X1.egnd)           =   -16.65uA  \   -16.17uA
+    I(V_V2)                   =   110.73uA  \   -10.00GA
+    I(V_V3)                   =    60.45uA  \   -10.00GA
+    I(X_U1.X1.vb)             =    97.31pA  \   -13.87nA
+    I(X_U1.X1.vc)             =   -1.693pA  \  -261.50mA
+    I(X_U1.X1.ve)             =   -1.687pA  \  -261.50mA
+    I(X_U1.X1.vlim)           =    15.84uA  \    15.39uA
+    I(X_U1.X1.VQ1)            =   788.96nA  \   766.71nA
+
+  These devices failed to converge:
+    X_U1.X1.dc X_U1.X1.de X_U1.X1.dp X_U1.X1.fb X_U1.X1.FQ3 X_U1.X1.FQ1 
+
+ERROR(ORPSIM-15659): Discontinuing simulation due to convergence problem
+
+**** Interrupt ****
+**** Param: RELTOL = 0.001
+**** Param: ABSTOL = 1e-012
+**** Param: VNTOL = 1e-006
+**** Param: GMIN = 1e-012
+**** Param: TSTOP = 5
+**** Param: TMAX = 0.1
+**** Param: ITL1 = 150
+**** Param: ITL2 = 20
+**** Param: ITL4 = 100
+**** Param: AutoConverge = 1
+**** Param: AutoConverge.ITL1 = 1000
+**** Param: AutoConverge.ITL2 = 1000
+**** Param: AutoConverge.ITL4 = 1000
+**** Param: AutoConverge.RELTOL = 0.05
+**** Param: AutoConverge.ABSTOL = 0.001
+**** Param: AutoConverge.VNTOL = 0.001
+**** Param: AutoConverge.PIVTOL = 1e-010
+**** Param: ADVCONV = 1
+**** Param: Current_Simulation = 0
+**** Param: METHOD = 0
+**** Param: TRTOL = 7
+**** Param: STEPGMIN = 0
+**** Param: GMINSTEPS = 0
+**** Param: ITL6 = 0
+**** Param: NOSTEPDEP = 0
+**** Param: PTRANSTEP = 0
+**** Param: GMINSRC = 0
+**** Param: PSEUDOTRAN = 0
+**** Param: NOSTEPSRC = 0
+
+Starting pseudo-transient algorithm (from auto-convergence).
+
+WARNING(ORPSIM-16534): Using high values of ITL4 for Speed Level > 0 may increase total simulation job time.
+Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)     .7473  (   V-)    -.7473  (  VIN)     .1644  ( VOUT)    -.0075      
+
+(N00145)    -.0294 (X_U1.13)    -.0659                   (X_U1.14)    -.0911    
+
+(X_U1.X1.6)    -.0014                 (X_U1.X1.7)    -.0072                     
+
+(X_U1.X1.8)    -.0072                 (X_U1.X1.9)    0.0000                     
+
+(X_U1.X1.10)    -.7177                (X_U1.X1.11)    -.6957                    
+
+(X_U1.X1.12)    -.7090                (X_U1.X1.13)    -.7016                    
+
+(X_U1.X1.14)    -.7123                (X_U1.X1.20)     .5349                    
+
+(X_U1.X1.21)    0.0000                (X_U1.X1.22)    0.0000                    
+
+(X_U1.X1.53)    -.8719                (X_U1.X1.54)     .8569                    
+
+(X_U1.X1.90) 6.157E-06                (X_U1.X1.91)    3.4875                    
+
+(X_U1.X1.92)   -3.4875                (X_U1.X1.99)    0.0000                
+
+Resuming Simulation with the following settings
+ITL1 = 291
+ITL2 = 171
+
+
+Starting pseudo-transient algorithm (from auto-convergence).
+Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)     .7473  (   V-)    -.7473  (  VIN)     .1644  ( VOUT)    -.0075      
+
+(N00145)    -.0294 (X_U1.13)    -.0659                   (X_U1.14)    -.0911    
+
+(X_U1.X1.6)    -.0014                 (X_U1.X1.7)    -.0072                     
+
+(X_U1.X1.8)    -.0072                 (X_U1.X1.9)    0.0000                     
+
+(X_U1.X1.10)    -.7177                (X_U1.X1.11)    -.6957                    
+
+(X_U1.X1.12)    -.7090                (X_U1.X1.13)    -.7016                    
+
+(X_U1.X1.14)    -.7123                (X_U1.X1.20)     .5349                    
+
+(X_U1.X1.21)    0.0000                (X_U1.X1.22)    0.0000                    
+
+(X_U1.X1.53)    -.8719                (X_U1.X1.54)     .8569                    
+
+(X_U1.X1.90) 6.157E-06                (X_U1.X1.91)    3.4875                    
+
+(X_U1.X1.92)   -3.4875                (X_U1.X1.99)    0.0000                
+
+Resuming Simulation with the following settings
+ITL1 = 565
+ITL2 = 1000
+
+
+ERROR(ORPSIM-16550): Floating point computation failed during matrix solution. Possible solutions: 1)Ensure that all device parameters are in valid range. 2)Try using .options LIMIT
+
+INTERNAL ERROR -- Overflow, Multiply
+
+ABORTING SIMULATION
+**** 05/09/20 10:42:04 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_INA157"  [ e:\pcb_esp_con_usb\simulaciones\nilm_project_test1-pspicefiles\schematic1\test_ina157.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           6
+  External (NCNODS)                 =          26
+  Total (NUMNOD)                    =          26
+
+Total device count (NUMEL)          =          49
+  Capacitors (C)                    =           4
+  Diodes (D)                        =           7
+  VCVS (E)                          =           1
+  CCCS (F)                          =           4
+  VCCS (G)                          =           2
+  CCVS (H)                          =           1
+  Current Sources (I)               =           1
+  BJTs (Q)                          =           2
+  Resistors (R)                     =          16
+  Voltage Sources (V)               =          11
+
+Number of subcircuits (X)           =           2
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          39
+  Initial no. elements (NTTAR)      =         137
+  No. elements w/ fillin (NTTBR)    =         205
+  No. fillins (IFILL)               =          68
+  No. overflows (NTTOV)             =         114
+  No. LU operations (IOPS)          =         294
+  Percent sparsity (PERSPA)         =      86.522
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =          67
+  No. rejected time points (NUMRTP) =          28
+  No. iterations (NUMNIT)           =        2313
+
+Load Threads                        =           4
+
+Runtime statistics:                       Seconds      Iterations   Stopped At
+  Matrix load                       =         .53
+  Matrix solution                   =         .05              44
+  Readin                            =         .02
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  Default algorithm                 =        -.28           -2037
+  GMIN stepping                     =         .03            2037     100.00m
+  Supply stepping                   =         .03               0        4.98%
+  Quasi-tran                        =         .22               0        0.00%
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .44
+  Total job time (using Solver 1)   =        8.34
+

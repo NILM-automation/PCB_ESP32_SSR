@@ -1,0 +1,426 @@
+
+**** 11/29/18 11:13:51 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "INA821 Test Circuit.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ina821.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0282827\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2m 0 2u 
+.OPTIONS ADVCONV
+.OPTIONS METHOD= Default
+.AUTOCONVERGE ITL1=1000 ITL2=1000 ITL4=1000 RELTOL=0.05 ABSTOL=1.0E-6 VNTOL=.001 PIVTOL=1.0E-10 
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source INA821 TEST CIRCUIT
+V_Vcc         N11906 0 15Vdc
+R_RL         0 OUT  10k TC=0,0 
+R_RG         N12280 N12274  1T TC=0,0 
+V_VIN         N12170 0  AC 1
++SIN 0 100m 1k 0 0 0
+V_Vee         N12296 0 -15Vdc
+E_E1         N12164 0 N12170 0 0.5
+C_CL         0 OUT  15p  TC=0,0 
+E_E2         0 N12256 N12170 0 0.5
+X_U1         N12164 N12256 N11906 N12296 OUT 0 N12274 N12280 INA821 
+
+**** RESUMING "INA821 Test Circuit.cir" ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file ina821.ind for library file ina821.lib.
+
+INFO(ORPSIM-15422): Making new index file ina821.ind for library file ina821.lib.
+
+Index has 26 entries from 1 file(s).
+
+**** 11/29/18 11:13:51 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.Xe_nn.DVN  X_U1.Xi_nn.DVNF X_U1.Xi_np.DVNF X_U1.Xe_np.DVN  
+          IS  100.000000E-18  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF   10.000000E-12    3.316625E-12    3.316625E-12   10.000000E-12 
+
+
+               X_U1.XA3.Xe_n3.DVN 
+          IS  100.000000E-18 
+          KF    3.316625E-12 
+
+
+**** 11/29/18 11:13:51 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_U1.XA3.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_U1.XA2.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_U1.XA1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 11/29/18 11:13:51 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.S_VSWITCH_1 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.XA3.S_VSWITCH_1 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U1.XA3.S_VSWITCH_2 
+         RON     .01         
+        ROFF    1.000000E+09 
+         VON     .01         
+        VOFF    0            
+
+
+Starting pseudo-transient algorithm.
+
+**** 11/29/18 11:13:51 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT) 60.00E-06  (N11906)   15.0000 (N12164)    0.0000 (N12170)    0.0000     
+
+(N12256)    0.0000 (N12274)    -.0180 (N12280)    -.0180 (N12296)  -15.0000     
+
+(X_U1.17) 10.00E-06                   (X_U1.18)-1.500E-12                       
+
+(X_U1.22)-179.9E-09                   (X_U1.23) 10.00E-06                       
+
+(X_U1.27)-9.975E-18                   (X_U1.28)-9.973E-18                       
+
+(X_U1.29)-9.983E-18                   (X_U1.30)  -13.0000                       
+
+(X_U1.31)   13.0000                   (X_U1.32)-9.973E-18                       
+
+(X_U1.33)-9.973E-18                   (X_U1.34)-1.500E-12                       
+
+(X_U1.35) 10.00E-06                   (X_U1.36)  -13.0000                       
+
+(X_U1.37)   13.0000                   (X_U1.38) 10.00E-06                       
+
+(X_U1.39) 3.811E-15                   (X_U1.40)   15.0000                       
+
+(X_U1.41) 3.811E-15                   (X_U1.42)  -15.0000                       
+
+(X_U1.INn)-9.983E-18                  (X_U1.INp) 10.00E-06                      
+
+(X_U1.MID) 1.504E-12                  (X_U1.NODE1)    -.0180                    
+
+(X_U1.NODE2)    -.0180                (X_U1.VCC_B)   15.0000                    
+
+(X_U1.VEE_B)  -15.0000                (X_U1.XU2.1)    0.0000                    
+
+(X_U1.XU2.2)     .2000                (X_U1.GAIN_S)    1.0002                   
+
+(X_U1.IN-_J1)   14.0000               (X_U1.OUT_J1) 60.00E-06                   
+
+(X_U1.XA3.53)    -.0090               (X_U1.XA3.54)    -.0090                   
+
+(X_U1.XA3.55) 934.8E-06               (X_U1.XA3.56) 934.8E-06                   
+
+(X_U1.XA3.57)     .0774               (X_U1.XA3.58)     .0133                   
+
+(X_U1.XA3.59) 60.00E-06               (X_U1.XA3.60)     .0915                   
+
+(X_U1.XA3.61)     .0915               (X_U1.XA3.62) 7.781E-06                   
+
+(X_U1.XA3.63)     .0915               (X_U1.XA3.64)     .0915                   
+
+(X_U1.XA3.65)     .0915               (X_U1.XA3.66)     .0915                   
+
+(X_U1.XA3.67)     .0915               (X_U1.XA3.68)     .0915                   
+
+(X_U1.XA3.69)     .0915               (X_U1.XA3.70)     .0915                   
+
+(X_U1.XA3.71)     .0915               (X_U1.XA3.72) 934.8E-06                   
+
+(X_U1.XA3.73)    -.0090               (X_U1.XA3.74)    -.0090                   
+
+(X_U1.XA3.75)    -.0090               (X_U1.XA3.76)    -.0090                   
+
+(X_U1.XA3.77)    -.0090               (X_U1.XA3.78)   13.0000                   
+
+(X_U1.XA3.79)  -13.0000               (X_U1.XA3.80)    -.0090                   
+
+(X_U1.XA3.81) 934.8E-06               (X_U1.XA3.82) 1.504E-12                   
+
+(X_U1.XA3.83)-649.1E-12               (X_U1.XA3.84)-448.9E-12                   
+
+(X_U1.XA3.85)-448.9E-12               (X_U1.XA3.86)-649.1E-12                   
+
+(X_U1.XA3.87)     .4509               (X_U1.XA3.88)     .4509                   
+
+(X_U1.XA3.89)     .4509               (X_U1.XA3.90)    -.6491                   
+
+(X_U1.XA3.91)    -.6491               (X_U1.XA3.92)    -.6491                   
+
+(X_U1.XA3.93) 1.504E-12               (X_U1.XA3.94) 1.504E-12                   
+
+(X_U1.XA3.95) 1.504E-12               (X_U1.XA3.96) 1.504E-12                   
+
+(X_U1.XA3.97)  -14.9600               (X_U1.XA3.98)   14.9700                   
+
+(X_U1.XA3.99)  -14.9600               (X_U1.XA1.183)-31.68E-06                  
+
+(X_U1.XA1.184)    -.2880              (X_U1.XA1.185)    -.2880                  
+
+(X_U1.XA1.186)    -.2880              (X_U1.XA1.187)    -.2880                  
+
+(X_U1.XA1.188)    -.2880              (X_U1.XA1.189)    -.0196                  
+
+(X_U1.XA1.190)    -.0196              (X_U1.XA1.191)    -.0180                  
+
+(X_U1.XA1.192)    -.1429              (X_U1.XA1.193)    -.0160                  
+
+(X_U1.XA1.194)-171.0E-09              (X_U1.XA1.195)    -.0196                  
+
+(X_U1.XA1.196)    -.0196              (X_U1.XA1.197)    -.2880                  
+
+(X_U1.XA1.198)    -.2880              (X_U1.XA1.199)    -.2880                  
+
+(X_U1.XA1.200)    -.2880              (X_U1.XA1.201)    -.2880                  
+
+(X_U1.XA1.202)    -.2880              (X_U1.XA1.203)-900.9E-06                  
+
+(X_U1.XA2.137)-31.63E-06              (X_U1.XA2.138)    -.2876                  
+
+(X_U1.XA2.139)    -.2876              (X_U1.XA2.140)    -.2876                  
+
+(X_U1.XA2.141)    -.2876              (X_U1.XA2.142)    -.2876                  
+
+(X_U1.XA2.143)    -.0196              (X_U1.XA2.144)    -.0196                  
+
+(X_U1.XA2.145)    -.0180              (X_U1.XA2.146)    -.1427                  
+
+(X_U1.XA2.147)    -.0160              (X_U1.XA2.148)-171.0E-09                  
+
+(X_U1.XA2.149)    -.0196              (X_U1.XA2.150)    -.0196                  
+
+(X_U1.XA2.151)    -.2876              (X_U1.XA2.152)    -.2876                  
+
+(X_U1.XA2.153)    -.2876              (X_U1.XA2.154)    -.2876                  
+
+(X_U1.XA2.155)    -.2876              (X_U1.XA2.156)    -.2876                  
+
+(X_U1.XA2.157)-897.4E-06              (X_U1.XA3.100)   14.9700                  
+
+(X_U1.XA3.101)  -18.0000              (X_U1.XA3.102)   18.0000                  
+
+(X_U1.XA3.103) 1.504E-12              (X_U1.XA3.104) 1.504E-12                  
+
+(X_U1.XA3.105) 1.504E-12              (X_U1.XA3.106) 1.504E-12                  
+
+(X_U1.XA3.107) 1.504E-12              (X_U1.XA3.108) 1.504E-12                  
+
+(X_U1.XA3.109) 1.504E-12              (X_U1.XA3.110) 1.504E-12                  
+
+(X_U1.XA3.111) 934.8E-06              (X_U1.XA3.112) -144.0000                  
+
+(X_U1.XA3.113)  144.0000              (X_U1.XA3.114) 9.644E-09                  
+
+(X_U1.XA3.115) 934.8E-06              (X_U1.XA3.116) 934.8E-06                  
+
+(X_U1.XA3.117) 934.8E-06              (X_U1.XA3.118) 7.501E-06                  
+
+(X_U1.XA3.119) 22.96E-09              (X_U1.XA3.120) 7.500E-06                  
+
+(X_U1.XA3.121) 7.501E-06              (X_U1.XA3.122)    -.0090                  
+
+(X_U1.XA3.123)-7.500E-06              (X_U1.XA3.124)    -.7500                  
+
+(X_U1.XA3.125)     .0025              (X_U1.XA3.126) 908.8E-06                  
+
+(X_U1.XA3.127) 60.00E-06              (X_U1.Xe_nn.3)    0.0000                  
+
+(X_U1.Xe_nn.4)    0.0000              (X_U1.Xe_nn.5)    0.0000                  
+
+(X_U1.Xe_nn.6)    0.0000              (X_U1.Xe_nn.7)     .8338                  
+
+(X_U1.Xe_nn.8)     .8338              (X_U1.Xe_np.3)    0.0000                  
+
+(X_U1.Xe_np.4)    0.0000              (X_U1.Xe_np.5)    0.0000                  
+
+(X_U1.Xe_np.6)    0.0000              (X_U1.Xe_np.7)     .8338                  
+
+(X_U1.Xe_np.8)     .8338              (X_U1.Xi_nn.3)    0.0000                  
+
+(X_U1.Xi_nn.4)    0.0000              (X_U1.Xi_nn.5)    0.0000                  
+
+(X_U1.Xi_nn.6)    0.0000              (X_U1.Xi_nn.7)     .8338                  
+
+(X_U1.Xi_nn.8)     .8338              (X_U1.Xi_np.3)    0.0000                  
+
+(X_U1.Xi_np.4)    0.0000              (X_U1.Xi_np.5)    0.0000                  
+
+(X_U1.Xi_np.6)    0.0000              (X_U1.Xi_np.7)     .8338                  
+
+(X_U1.Xi_np.8)     .8338              (X_U1.IN+_J1_19)    -.0090                
+
+(X_U1.IN+_J1_26)   14.0000            (X_U1.IN-_J1_20)    -.0090                
+
+(X_U1.IN-_J1_24)   14.0000            (X_U1.XA3.VCLP3) 934.8E-06                
+
+(X_U1.XA1.VIMON1)-900.9E-06           (X_U1.XA2.VIMON2)-897.4E-06               
+
+(X_U1.XA3.CLAMP3) 934.8E-06           (X_U1.XA3.SW_OL3) 1.504E-12               
+
+(X_U1.XA3.VIMON3) 908.8E-06           (X_U1.XA3.VOUT_S3) 60.00E-06              
+
+(X_U1.XA3.VSENSE3) 934.8E-06          (X_U1.XA3.Xe_n3.3)    0.0000              
+
+(X_U1.XA3.Xe_n3.4)    0.0000          (X_U1.XA3.Xe_n3.5)    0.0000              
+
+(X_U1.XA3.Xe_n3.6)    0.0000          (X_U1.XA3.Xe_n3.7)     .8338              
+
+(X_U1.XA3.Xe_n3.8)     .8338          (X_U1.XA3.VCC_CLP3)   14.9700             
+
+(X_U1.XA3.VEE_CLP3)  -14.9600         (X_U1.XA3.CL_CLAMP3) 934.8E-06            
+
+(X_U1.XA3.CLAW_CLAMP3) 934.8E-06      
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vcc       -6.009E-04
+    V_VIN        0.000E+00
+    V_Vee        6.018E-04
+    X_U1.VCM_MINn   1.300E-08
+    X_U1.VCM_MAXn  -1.300E-08
+    X_U1.V_OSn   2.534E-18
+    X_U1.VCM_MINp   1.300E-08
+    X_U1.VCM_MAXp  -1.300E-08
+    X_U1.VB      0.000E+00
+    X_U1.XA3.VCM_MAX1  -1.300E-08
+    X_U1.XA3.VCM_MIN1   1.300E-08
+    X_U1.XA3.V5  -4.505E-10
+    X_U1.XA3.V_ORp3   0.000E+00
+    X_U1.XA3.V4   6.507E-10
+    X_U1.XA3.V_ORn3   0.000E+00
+    X_U1.XA3.V_ISCn3   1.800E-08
+    X_U1.XA3.V_ISCp3  -1.800E-08
+    X_U1.XA3.V_GRn3   1.440E-07
+    X_U1.XA3.V_GRp3  -1.440E-07
+    X_U1.XA3.V3   9.088E-07
+    X_U1.XU2.VSENSE  -8.993E-07
+    X_U1.XA2.V2  -8.974E-07
+    X_U1.XA1.V1  -9.009E-07
+
+    TOTAL POWER DISSIPATION   1.81E-02  WATTS
+
+
+
+          JOB CONCLUDED
+ AutoConverge Simulator Options
+ ITL1 = 150
+ ITL2 = 20
+ ITL4 = 10
+ RELTOL = 0.001
+ ABSTOL = 1e-012
+ VNTOL = 1e-006
+ PIVTOL = 1e-013
+
+**** 11/29/18 11:13:51 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-INA821 Test Circuit"  [ C:\Macromodels\Models\INA821\Release\RTM\INA821_PSpice\ina821 test circuit-pspicefil
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .91
+  Total job time (using Solver 1)   =       15.76
+
