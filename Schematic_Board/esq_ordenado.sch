@@ -9657,133 +9657,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-lstb" urn="urn:adsk.eagle:library:162">
-<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
-Naming:&lt;p&gt;
-MA = male&lt;p&gt;
-# contacts - # rows&lt;p&gt;
-W = angled&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="MA04-2" urn="urn:adsk.eagle:footprint:8328/1" library_version="2">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-4.318" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="3.81" y="2.921" size="1.27" layer="21" ratio="10">8</text>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
-<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
-<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
-<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
-<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="MA04-2" urn="urn:adsk.eagle:package:8368/1" type="box" library_version="2">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="MA04-2"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MA04-2" urn="urn:adsk.eagle:symbol:8327/1" library_version="2">
-<wire x1="3.81" y1="-7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
-<text x="-3.81" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-3.81" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="4" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="6" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="7" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MA04-2" urn="urn:adsk.eagle:component:8405/2" prefix="SV" uservalue="yes" library_version="2">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MA04-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MA04-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8368/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="11" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TPD2S017DBVR">
 <packages>
 <package name="SOT95P280X145-6N">
@@ -10168,95 +10041,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <connect gate="G$1" pin="P4" pad="P4"/>
 <connect gate="G$1" pin="P5" pad="P5"/>
 <connect gate="G$1" pin="SHELL" pad="SHEL1 SHEL2 SHEL3 SHEL4 SHEL5 SHEL6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="switch_B3FS-1012P">
-<packages>
-<package name="B3FS-1012P">
-<description>Switch OMRON B3FS-1012P
-datasheet: https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</description>
-<smd name="P3" x="4" y="2.25" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="P1" x="4" y="-2.25" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="P2" x="-4" y="-2.25" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="P4" x="-4" y="2.25" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<circle x="0" y="0" radius="1.5" width="0.1524" layer="21"/>
-<wire x1="-3" y1="2.75" x2="-3" y2="3.15" width="0.1524" layer="21"/>
-<wire x1="-3" y1="3.15" x2="3" y2="3.15" width="0.1524" layer="21"/>
-<wire x1="3" y1="-3.15" x2="3" y2="-2.75" width="0.1524" layer="21"/>
-<wire x1="3" y1="-2.75" x2="3" y2="-1.75" width="0.1524" layer="21"/>
-<wire x1="3" y1="-1.75" x2="3" y2="1.75" width="0.1524" layer="21"/>
-<wire x1="3" y1="1.75" x2="3" y2="2.75" width="0.1524" layer="21"/>
-<wire x1="3" y1="2.75" x2="3" y2="3.15" width="0.1524" layer="21"/>
-<wire x1="-3" y1="2.75" x2="-3" y2="1.75" width="0.1524" layer="21"/>
-<wire x1="-3" y1="1.75" x2="-3" y2="-1.75" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-1.75" x2="-3" y2="-2.75" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-2.75" x2="-3" y2="-3.15" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-3.15" x2="3" y2="-3.15" width="0.1524" layer="21"/>
-<wire x1="-3" y1="2.75" x2="-4.4" y2="2.75" width="0.1524" layer="21"/>
-<wire x1="-4.4" y1="2.75" x2="-4.4" y2="1.75" width="0.1524" layer="21"/>
-<wire x1="-4.4" y1="1.75" x2="-3" y2="1.75" width="0.1524" layer="21"/>
-<wire x1="3" y1="2.75" x2="4.45" y2="2.75" width="0.1524" layer="21"/>
-<wire x1="4.45" y1="2.75" x2="4.45" y2="1.75" width="0.1524" layer="21"/>
-<wire x1="4.45" y1="1.75" x2="3" y2="1.75" width="0.1524" layer="21"/>
-<wire x1="3" y1="-1.75" x2="4.45" y2="-1.75" width="0.1524" layer="21"/>
-<wire x1="4.45" y1="-1.75" x2="4.45" y2="-2.75" width="0.1524" layer="21"/>
-<wire x1="4.45" y1="-2.75" x2="3" y2="-2.75" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-1.75" x2="-4.4" y2="-1.75" width="0.1524" layer="21"/>
-<wire x1="-4.4" y1="-1.75" x2="-4.4" y2="-2.75" width="0.1524" layer="21"/>
-<wire x1="-4.4" y1="-2.75" x2="-3" y2="-2.75" width="0.1524" layer="21"/>
-<text x="-2.54" y="3.81" size="1.016" layer="25">NAME</text>
-<text x="-2.54" y="-5.08" size="1.016" layer="27">VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="B3FS-1012P">
-<description>Switch OMRON B3FS-1012P
-datasheet: 
-https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</description>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
-<pin name="P4" x="-7.62" y="2.54" visible="pad" length="middle"/>
-<pin name="P2" x="-7.62" y="-5.08" visible="pad" length="middle"/>
-<pin name="P3" x="7.62" y="2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="P1" x="7.62" y="-5.08" visible="pad" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-7.62" y="5.08" size="1.778" layer="95">NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SWITCH_OMRON_B3FS-1012P">
-<gates>
-<gate name="G$1" symbol="B3FS-1012P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="B3FS-1012P">
-<connects>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-<connect gate="G$1" pin="P3" pad="P3"/>
-<connect gate="G$1" pin="P4" pad="P4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10922,6 +10706,62 @@ Holes are offset 0.005" to lock pins in place during soldering.
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="PAD.02X.02" urn="urn:adsk.eagle:footprint:37959/1" library_version="1">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03" urn="urn:adsk.eagle:footprint:37960/1" library_version="1">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05" urn="urn:adsk.eagle:footprint:37961/1" library_version="1">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04" urn="urn:adsk.eagle:footprint:37962/1" library_version="1">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH" urn="urn:adsk.eagle:footprint:37963/1" library_version="1">
+<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area:0.015"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X09" urn="urn:adsk.eagle:package:38153/1" type="box" library_version="1">
@@ -10991,6 +10831,71 @@ CONN_09
 <packageinstance name="1X09_NO_SILK"/>
 </packageinstances>
 </package3d>
+<package3d name="PAD.02X.02" urn="urn:adsk.eagle:package:38284/1" type="box" library_version="1">
+<description>Electrically Conductive Pad 0.02" Square
+Used as a test point connection for pogo pins or other debugging tools. 
+Specifications:
+Area: 0.02" x 0.02"
+
+Example device(s):
+TEST_POINT
+</description>
+<packageinstances>
+<packageinstance name="PAD.02X.02"/>
+</packageinstances>
+</package3d>
+<package3d name="PAD.03X.03" urn="urn:adsk.eagle:package:38286/1" type="box" library_version="1">
+<description>Electrically Conductive Pad 0.03" Circle
+Used as a test point connection for pogo pins or other debugging tools. 
+Specifications:
+Area: 0.03" x 0.03"
+
+Example device(s):
+TEST_POINT
+</description>
+<packageinstances>
+<packageinstance name="PAD.03X.03"/>
+</packageinstances>
+</package3d>
+<package3d name="PAD.03X.05" urn="urn:adsk.eagle:package:38285/1" type="box" library_version="1">
+<description>Electrically Conductive Pad 0.05" Circle
+Used as a test point connection for pogo pins or other debugging tools. 
+Specifications:
+Area: 0.05" x 0.05"
+
+Example device(s):
+TEST_POINT
+</description>
+<packageinstances>
+<packageinstance name="PAD.03X.05"/>
+</packageinstances>
+</package3d>
+<package3d name="PAD.03X.04" urn="urn:adsk.eagle:package:38287/1" type="box" library_version="1">
+<description>Electrically Conductive Pad 0.04" Circle
+Used as a test point connection for pogo pins or other debugging tools. 
+Specifications:
+Area: 0.04" x 0.04"
+
+Example device(s):
+TEST_POINT
+</description>
+<packageinstances>
+<packageinstance name="PAD.03X.04"/>
+</packageinstances>
+</package3d>
+<package3d name="TP_15TH" urn="urn:adsk.eagle:package:38288/1" type="box" library_version="1">
+<description>Electrically Conductive Via 0.015" Drill
+Used as a test point connection for pogo pins or other debugging tools. 
+Specifications:
+Area:0.015"
+
+Example device(s):
+TEST_POINT
+</description>
+<packageinstances>
+<packageinstance name="TP_15TH"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CONN_09" urn="urn:adsk.eagle:symbol:37775/1" library_version="1">
@@ -11019,6 +10924,13 @@ CONN_09
 <pin name="7" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="8" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="9" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="TEST-POINT" urn="urn:adsk.eagle:symbol:37958/1" library_version="1">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11157,6 +11069,170 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
+<deviceset name="TEST-POINT" urn="urn:adsk.eagle:component:38391/1" prefix="TP" library_version="1">
+<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
+&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38284/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38286/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38285/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38287/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38288/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Switch" urn="urn:adsk.eagle:library:11396471">
+<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Switches&lt;/i&gt;&lt;/h3&gt;
+
+Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
+&lt;BR&gt;
+&lt;BR&gt;
+This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
+&lt;BR&gt;
+&lt;BR&gt;
+Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
+<packages>
+<package name="B3U-1000P" urn="urn:adsk.eagle:footprint:10899208/1" library_version="2">
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.1" x2="-2.35" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-2.35" y1="1.1" x2="-1.75" y2="1.1" width="0.05" layer="39"/>
+<wire x1="1.75" y1="1.1" x2="2.35" y2="1.1" width="0.05" layer="39"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="2.35" y1="-1.1" x2="1.75" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="1.75" y1="-1.1" x2="1.75" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="1.1" x2="-1.75" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.05" layer="39"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.95" x2="-1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.25" x2="1.5" y2="-1" width="0.127" layer="21"/>
+<text x="-2.7" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7" y="-2.9" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.7" y="0" dx="1.7" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="1.7" y="0" dx="1.7" dy="0.8" layer="1" rot="R90"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="B3U-1000P" urn="urn:adsk.eagle:package:10899220/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="B3U-1000P"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="B3U-1000P" urn="urn:adsk.eagle:symbol:10899214/1" library_version="2">
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.016" y2="0.762" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.556" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96" distance="53">&gt;VALUE</text>
+<pin name="2" x="10.16" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-10.16" y="0" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B3U-1000P" urn="urn:adsk.eagle:component:10899227/9" prefix="SW" library_version="2">
+<description>&lt;h3&gt; SWITCH TACTILE SPST-NO 0.05A 12V &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B3U-1000P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3U-1000P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10899220/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGI_KEY_PART_NUMBER" value="SW1020CT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Omron Electronics Inc-EMC Div" constant="no"/>
+<attribute name="MPN" value="B3U-1000P" constant="no"/>
+<attribute name="PACKAGE" value="SPST-NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -11209,8 +11285,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="12K"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="12K"/>
 <part name="U2" library="CP2102-GM" deviceset="CP2102-GM" device=""/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1.0uF"/>
@@ -11219,7 +11293,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-2" device="" package3d_urn="urn:adsk.eagle:package:8368/1"/>
 <part name="U3" library="TPD2S017DBVR" deviceset="TPD2S017DBVR" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -11254,12 +11327,16 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="U$1" library="usb_microB_10118192" deviceset="MICRO_USB_B-AMPHENOL(10118192)" device=""/>
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
-<part name="S_IO0" library="switch_B3FS-1012P" deviceset="SWITCH_OMRON_B3FS-1012P" device=""/>
-<part name="U$2" library="switch_B3FS-1012P" deviceset="SWITCH_OMRON_B3FS-1012P" device=""/>
 <part name="U4" library="INA821ID_TI" deviceset="INA821ID" device="D0008A_M" value="Value"/>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="24.7K"/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="KK-156-2" device="" package3d_urn="urn:adsk.eagle:package:8078800/1"/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="BOOT" library="Switch" library_urn="urn:adsk.eagle:library:11396471" deviceset="B3U-1000P" device="" package3d_urn="urn:adsk.eagle:package:10899220/2"/>
+<part name="EN" library="Switch" library_urn="urn:adsk.eagle:library:11396471" deviceset="B3U-1000P" device="" package3d_urn="urn:adsk.eagle:package:10899220/2"/>
+<part name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
+<part name="TP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
+<part name="TP3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
+<part name="TP4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11353,26 +11430,26 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="GND10" gate="1" x="55.88" y="121.92" smashed="yes">
 <attribute name="VALUE" x="55.88" y="121.666" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="195.58" y="114.3" smashed="yes">
-<attribute name="VALUE" x="195.58" y="114.046" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="195.58" y="119.38" smashed="yes">
+<attribute name="VALUE" x="195.58" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="210.82" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="211.455" y="146.304" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="206.629" y="146.304" size="1.778" layer="96" rot="R270"/>
+<instance part="C4" gate="G$1" x="210.82" y="149.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="211.455" y="148.844" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="206.629" y="148.844" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R1" gate="G$1" x="228.6" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="230.0986" y="151.13" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="225.298" y="151.13" size="1.778" layer="96" rot="R270"/>
+<instance part="R1" gate="G$1" x="228.6" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="230.0986" y="148.59" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="225.298" y="148.59" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C5" gate="G$1" x="228.6" y="132.08" smashed="yes">
-<attribute name="NAME" x="229.616" y="132.715" size="1.778" layer="95"/>
-<attribute name="VALUE" x="229.616" y="127.889" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="228.6" y="129.54" smashed="yes">
+<attribute name="NAME" x="229.616" y="130.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="229.616" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="228.6" y="154.94" smashed="yes">
-<attribute name="VALUE" x="228.6" y="157.734" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="228.6" y="152.4" smashed="yes">
+<attribute name="VALUE" x="228.6" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND12" gate="1" x="228.6" y="121.92" smashed="yes">
-<attribute name="VALUE" x="228.6" y="121.666" size="1.778" layer="96" align="top-center"/>
+<instance part="GND12" gate="1" x="228.6" y="119.38" smashed="yes">
+<attribute name="VALUE" x="228.6" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R2" gate="G$1" x="83.82" y="7.62" smashed="yes">
 <attribute name="NAME" x="80.01" y="9.1186" size="1.778" layer="95"/>
@@ -11385,12 +11462,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="GND13" gate="1" x="116.84" y="5.08" smashed="yes">
 <attribute name="VALUE" x="116.84" y="4.826" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C6" gate="G$1" x="119.38" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="118.745" y="204.216" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="123.571" y="204.216" size="1.778" layer="96" rot="R90"/>
+<instance part="C6" gate="G$1" x="119.38" y="208.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="118.745" y="209.296" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="123.571" y="209.296" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND16" gate="1" x="132.08" y="172.72" smashed="yes">
-<attribute name="VALUE" x="132.08" y="172.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND16" gate="1" x="134.62" y="180.34" smashed="yes">
+<attribute name="VALUE" x="134.62" y="180.086" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="Q1" gate="G$1" x="152.4" y="203.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="154.94435" y="200.65565" size="1.27216875" layer="95" ratio="10" rot="R180"/>
@@ -11409,13 +11486,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="U2" gate="G$1" x="149.86" y="134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="162.8041" y="152.9787" size="1.784090625" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="162.9948" y="117.2888" size="1.78271875" layer="96" rot="MR0"/>
-</instance>
-<instance part="R5" gate="G$1" x="175.26" y="149.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="179.07" y="148.3614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="179.07" y="153.162" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY8" gate="G$1" x="182.88" y="152.4" smashed="yes">
-<attribute name="VALUE" x="182.88" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="114.3" y="154.94" smashed="yes">
 <attribute name="VALUE" x="114.3" y="157.734" size="1.778" layer="96" align="bottom-center"/>
@@ -11444,19 +11514,15 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="GND20" gate="1" x="129.54" y="114.3" smashed="yes">
 <attribute name="VALUE" x="129.54" y="114.046" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SV1" gate="G$1" x="210.82" y="195.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="214.63" y="205.74" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="214.63" y="189.738" size="1.778" layer="95" rot="R180"/>
+<instance part="U3" gate="A" x="233.68" y="193.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="247.102759375" y="175.5093" size="2.086959375" layer="95" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="237.419990625" y="174.391" size="2.08625" layer="96" ratio="10" rot="SMR0"/>
 </instance>
-<instance part="U3" gate="A" x="248.92" y="193.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="262.342759375" y="175.5093" size="2.086959375" layer="95" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="252.659990625" y="174.391" size="2.08625" layer="96" ratio="10" rot="SMR0"/>
+<instance part="GND21" gate="1" x="264.16" y="175.26" smashed="yes">
+<attribute name="VALUE" x="264.16" y="175.006" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND21" gate="1" x="279.4" y="175.26" smashed="yes">
-<attribute name="VALUE" x="279.4" y="175.006" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND22" gate="1" x="292.1" y="213.36" smashed="yes" rot="R270">
-<attribute name="VALUE" x="291.846" y="213.36" size="1.778" layer="96" rot="R270" align="top-center"/>
+<instance part="GND22" gate="1" x="274.32" y="205.74" smashed="yes">
+<attribute name="VALUE" x="274.32" y="205.486" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J5" gate="G$1" x="15.24" y="66.04" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="15.24" y="81.026" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -11564,17 +11630,15 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="GND29" gate="1" x="297.18" y="83.82" smashed="yes">
 <attribute name="VALUE" x="297.18" y="83.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$1" gate="G$1" x="317.5" y="193.04" smashed="yes" rot="MR180"/>
-<instance part="R14" gate="G$1" x="304.8" y="213.36" smashed="yes">
-<attribute name="NAME" x="300.99" y="214.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="300.99" y="210.058" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$1" x="302.26" y="187.96" smashed="yes" rot="MR180"/>
+<instance part="R14" gate="G$1" x="289.56" y="208.28" smashed="yes">
+<attribute name="NAME" x="285.75" y="209.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.75" y="204.978" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="304.8" y="220.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="305.816" y="221.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="298.196" y="221.869" size="1.778" layer="96"/>
+<instance part="C12" gate="G$1" x="289.56" y="215.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="290.576" y="216.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="282.956" y="216.789" size="1.778" layer="96"/>
 </instance>
-<instance part="S_IO0" gate="G$1" x="121.92" y="187.96" smashed="yes" rot="MR90"/>
-<instance part="U$2" gate="G$1" x="208.28" y="129.54" smashed="yes" rot="R90"/>
 <instance part="U4" gate="A" x="236.22" y="83.82" smashed="yes">
 <attribute name="NAME" x="231.4956" y="85.3186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="230.8606" y="82.7786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -11594,6 +11658,30 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </instance>
 <instance part="GND14" gate="1" x="304.8" y="66.04" smashed="yes">
 <attribute name="VALUE" x="304.8" y="65.786" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="BOOT" gate="G$1" x="121.92" y="195.58" smashed="yes">
+<attribute name="NAME" x="116.84" y="199.136" size="1.778" layer="95"/>
+<attribute name="VALUE" x="116.84" y="190.5" size="1.778" layer="96"/>
+</instance>
+<instance part="EN" gate="G$1" x="208.28" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="213.36" y="133.604" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="213.36" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="TP2" gate="G$1" x="210.82" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="213.36" y="195.58" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="208.28" y="195.58" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="TP1" gate="G$1" x="210.82" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="208.28" y="193.04" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="213.36" y="193.04" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="TP3" gate="G$1" x="269.24" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="266.7" y="187.96" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="271.78" y="187.96" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="TP4" gate="G$1" x="269.24" y="187.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="271.78" y="190.5" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="266.7" y="190.5" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -11654,19 +11742,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="228.6" y1="152.4" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="149.86" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="114.3" y1="154.94" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VDD"/>
 <wire x1="132.08" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="182.88" y1="149.86" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -11756,23 +11838,17 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="116.84" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P3"/>
-<wire x1="195.58" y1="119.38" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="139.7" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="137.16" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<junction x="195.58" y="139.7"/>
-<pinref part="U$2" gate="G$1" pin="P4"/>
-<wire x1="205.74" y1="121.92" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<junction x="195.58" y="119.38"/>
+<wire x1="195.58" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="121.92" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="EN" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="137.16" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<junction x="195.58" y="137.16"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="228.6" y1="127" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="124.46" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -11781,19 +11857,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="203.2" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="203.2" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
-<junction x="132.08" y="198.12"/>
-<wire x1="132.08" y1="198.12" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="208.28" x2="134.62" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="208.28" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="132.08" y1="177.8" x2="132.08" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="S_IO0" gate="G$1" pin="P3"/>
-<wire x1="124.46" y1="198.12" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="S_IO0" gate="G$1" pin="P4"/>
-<wire x1="124.46" y1="180.34" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="177.8" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
-<junction x="132.08" y="177.8"/>
+<pinref part="BOOT" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="195.58" x2="134.62" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="195.58" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
+<junction x="134.62" y="195.58"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -11819,27 +11889,27 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="GND"/>
-<wire x1="269.24" y1="182.88" x2="279.4" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="182.88" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="254" y1="182.88" x2="264.16" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="182.88" x2="264.16" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="297.18" y1="213.36" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
-<junction x="297.18" y="213.36"/>
-<wire x1="297.18" y1="205.74" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="208.28" x2="274.32" y2="208.28" width="0.1524" layer="91"/>
+<junction x="281.94" y="208.28"/>
+<wire x1="281.94" y1="200.66" x2="281.94" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P5"/>
-<wire x1="304.8" y1="205.74" x2="297.18" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="200.66" x2="281.94" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="220.98" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="215.9" x2="281.94" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="215.9" x2="281.94" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="213.36" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
-<junction x="297.18" y="213.36"/>
+<wire x1="281.94" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
+<junction x="281.94" y="208.28"/>
 <pinref part="U$1" gate="G$1" pin="P4"/>
-<wire x1="304.8" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="200.66" x2="297.18" y2="205.74" width="0.1524" layer="91"/>
-<junction x="297.18" y="205.74"/>
+<wire x1="289.56" y1="195.58" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="195.58" x2="281.94" y2="200.66" width="0.1524" layer="91"/>
+<junction x="281.94" y="200.66"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -11911,24 +11981,19 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="147.32" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="149.86" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="149.86" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="139.7" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="137.16" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="139.7" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
-<junction x="228.6" y="139.7"/>
-<wire x1="228.6" y1="139.7" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
-<label x="233.68" y="139.7" size="1.27" layer="95" xref="yes"/>
-<wire x1="220.98" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<junction x="220.98" y="139.7"/>
-<pinref part="U$2" gate="G$1" pin="P1"/>
-<wire x1="213.36" y1="139.7" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P2"/>
-<wire x1="213.36" y1="121.92" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="119.38" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="137.16" x2="228.6" y2="132.08" width="0.1524" layer="91"/>
+<junction x="228.6" y="137.16"/>
+<wire x1="228.6" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<label x="233.68" y="137.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="EN" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
+<junction x="220.98" y="137.16"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="C"/>
@@ -12275,23 +12340,18 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="198.12" x2="109.22" y2="203.2" width="0.1524" layer="91"/>
-<junction x="109.22" y="198.12"/>
+<wire x1="109.22" y1="195.58" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="203.2" x2="116.84" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="198.12" x2="104.14" y2="198.12" width="0.1524" layer="91"/>
-<label x="99.06" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="109.22" y1="208.28" x2="116.84" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="195.58" x2="104.14" y2="195.58" width="0.1524" layer="91"/>
+<label x="99.06" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="198.12" x2="99.06" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="200.66" x2="104.14" y2="198.12" width="0.1524" layer="91"/>
-<junction x="104.14" y="198.12"/>
-<pinref part="S_IO0" gate="G$1" pin="P1"/>
-<wire x1="109.22" y1="198.12" x2="116.84" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="198.12" x2="116.84" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="S_IO0" gate="G$1" pin="P2"/>
-<wire x1="116.84" y1="180.34" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="177.8" x2="109.22" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="195.58" x2="99.06" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="200.66" x2="104.14" y2="195.58" width="0.1524" layer="91"/>
+<junction x="104.14" y="195.58"/>
+<pinref part="BOOT" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="195.58" x2="111.76" y2="195.58" width="0.1524" layer="91"/>
+<junction x="109.22" y="195.58"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
@@ -12486,13 +12546,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="129.54" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="U2" gate="G$1" pin="!RST"/>
-<wire x1="167.64" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SUSPEND-" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="!SUSPEND"/>
@@ -12508,14 +12561,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="172.72" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="195.58" y="200.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="200.66" x2="198.12" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
-<wire x1="198.12" y1="200.66" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="200.66" x2="198.12" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="195.58" x2="203.2" y2="195.58" width="0.1524" layer="91"/>
-<junction x="198.12" y="200.66"/>
+<label x="208.28" y="195.58" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U3" gate="A" pin="CH1_OUT"/>
+<wire x1="208.28" y1="195.58" x2="210.82" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="195.58" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
+<junction x="210.82" y="195.58"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -12525,55 +12576,43 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="172.72" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="195.58" y="198.12" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="198.12" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="7"/>
-<wire x1="200.66" y1="198.12" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="198.12" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="193.04" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
-<junction x="200.66" y="198.12"/>
+<label x="208.28" y="193.04" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U3" gate="A" pin="CH2_OUT"/>
+<wire x1="208.28" y1="193.04" x2="210.82" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="193.04" x2="213.36" y2="193.04" width="0.1524" layer="91"/>
+<junction x="210.82" y="193.04"/>
 </segment>
 </net>
 <net name="D+_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CH1_IN"/>
-<wire x1="269.24" y1="190.5" x2="287.02" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
-<junction x="287.02" y="190.5"/>
-<wire x1="287.02" y1="208.28" x2="287.02" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
-<label x="269.24" y="193.04" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="208.28" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="200.66" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
+<label x="254" y="193.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="P3"/>
-<wire x1="304.8" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="195.58" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="254" y1="190.5" x2="269.24" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="190.5" x2="289.56" y2="190.5" width="0.1524" layer="91"/>
+<junction x="269.24" y="190.5"/>
 </segment>
 </net>
 <net name="D-_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="CH2_IN"/>
-<wire x1="269.24" y1="187.96" x2="292.1" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="187.96" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
-<junction x="292.1" y="187.96"/>
-<wire x1="292.1" y1="205.74" x2="292.1" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="205.74" x2="292.1" y2="205.74" width="0.1524" layer="91"/>
-<label x="269.24" y="185.42" size="1.27" layer="95" xref="yes"/>
-<wire x1="223.52" y1="198.12" x2="223.52" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
-<wire x1="223.52" y1="198.12" x2="218.44" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="254" y1="187.96" x2="269.24" y2="187.96" width="0.1524" layer="91"/>
+<label x="254" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="269.24" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="187.96" x2="281.94" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P2"/>
-<wire x1="304.8" y1="190.5" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="190.5" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="185.42" x2="289.56" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<junction x="269.24" y="187.96"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
-<label x="299.72" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="284.48" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="P1"/>
-<wire x1="304.8" y1="185.42" x2="299.72" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="180.34" x2="284.48" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="REGIN"/>
@@ -12599,8 +12638,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VCC"/>
-<wire x1="269.24" y1="195.58" x2="271.78" y2="195.58" width="0.1524" layer="91"/>
-<label x="271.78" y="195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="254" y1="195.58" x2="256.54" y2="195.58" width="0.1524" layer="91"/>
+<label x="256.54" y="195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -12634,22 +12673,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="182.88" x2="45.72" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D-IN" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="CH2_OUT"/>
-<label x="226.06" y="190.5" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="8"/>
-<wire x1="228.6" y1="193.04" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D+IN" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="CH1_OUT"/>
-<label x="226.06" y="198.12" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV1" gate="G$1" pin="6"/>
-<wire x1="218.44" y1="195.58" x2="228.6" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VRELE" class="0">
@@ -12692,11 +12715,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="U$1" gate="G$1" pin="SHELL"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="317.5" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="208.28" x2="294.64" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="213.36" x2="317.5" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="220.98" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
-<junction x="317.5" y="213.36"/>
+<wire x1="302.26" y1="208.28" x2="302.26" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="215.9" x2="292.1" y2="215.9" width="0.1524" layer="91"/>
+<junction x="302.26" y="208.28"/>
 </segment>
 </net>
 <net name="N$8" class="0">
