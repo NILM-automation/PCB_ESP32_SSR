@@ -12710,6 +12710,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <label x="35.56" y="35.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="J6" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<wire x1="215.9" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
+<label x="210.82" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="A" pin="+IN"/>
+</segment>
 </net>
 <net name="SD2" class="1">
 <segment>
@@ -12887,11 +12892,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="160.02" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <label x="149.86" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<wire x1="215.9" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
-<label x="210.82" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="A" pin="+IN"/>
 </segment>
 </net>
 <net name="IO0" class="1">
