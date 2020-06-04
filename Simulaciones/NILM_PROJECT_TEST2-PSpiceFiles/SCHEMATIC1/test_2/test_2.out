@@ -1,7 +1,7 @@
 
-**** 05/09/20 16:53:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 06/01/20 23:43:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+ ** Profile: "SCHEMATIC1-test_2"  [ e:\pcb_esp_usb\simulaciones\nilm_project_test2-pspicefiles\schematic1\test_2.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -38,14 +38,14 @@ V_V2         V+ 0 15
 V_V3         0 V- 15
 V_V4         VIN 0  
 +PULSE 0 3.3 200m 1n 1n 200m 400m
-R_R2         0 VOUT  1k TC=0,0 
+R_R2         0 VOUT  1.3k TC=0,0 
 
 **** RESUMING test_2.cir ****
 .END
 
-**** 05/09/20 16:53:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 06/01/20 23:43:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+ ** Profile: "SCHEMATIC1-test_2"  [ e:\pcb_esp_usb\simulaciones\nilm_project_test2-pspicefiles\schematic1\test_2.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -66,9 +66,9 @@ R_R2         0 VOUT  1k TC=0,0
           KF    3.316625E-12 
 
 
-**** 05/09/20 16:53:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 06/01/20 23:43:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+ ** Profile: "SCHEMATIC1-test_2"  [ e:\pcb_esp_usb\simulaciones\nilm_project_test2-pspicefiles\schematic1\test_2.sim ] 
 
 
  ****     Resistor MODEL PARAMETERS
@@ -103,9 +103,9 @@ R_R2         0 VOUT  1k TC=0,0
            R    1            
 
 
-**** 05/09/20 16:53:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 06/01/20 23:43:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+ ** Profile: "SCHEMATIC1-test_2"  [ e:\pcb_esp_usb\simulaciones\nilm_project_test2-pspicefiles\schematic1\test_2.sim ] 
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -139,9 +139,9 @@ R_R2         0 VOUT  1k TC=0,0
 
 Starting pseudo-transient algorithm.
 
-**** 05/09/20 16:53:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 06/01/20 23:43:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+ ** Profile: "SCHEMATIC1-test_2"  [ e:\pcb_esp_usb\simulaciones\nilm_project_test2-pspicefiles\schematic1\test_2.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -186,27 +186,27 @@ Starting pseudo-transient algorithm.
 
 (X_U1.XU2.1)    0.0000                (X_U1.XU2.2)     .2000                    
 
-(X_U1.GAIN_S)    3.0001               (X_U1.IN-_J1)   14.0000                   
+(X_U1.GAIN_S)    3.0002               (X_U1.IN-_J1)   14.0000                   
 
 (X_U1.OUT_J1) 80.00E-06               (X_U1.XA3.53)    -.0090                   
 
 (X_U1.XA3.54)    -.0090               (X_U1.XA3.55)     .0010                   
 
-(X_U1.XA3.56)     .0010               (X_U1.XA3.57)     .0845                   
+(X_U1.XA3.56)     .0010               (X_U1.XA3.57)     .0829                   
 
-(X_U1.XA3.58)     .0145               (X_U1.XA3.59) 80.00E-06                   
+(X_U1.XA3.58)     .0142               (X_U1.XA3.59) 80.00E-06                   
 
-(X_U1.XA3.60)     .0993               (X_U1.XA3.61)     .0993                   
+(X_U1.XA3.60)     .0975               (X_U1.XA3.61)     .0975                   
 
-(X_U1.XA3.62) 8.441E-06               (X_U1.XA3.63)     .0993                   
+(X_U1.XA3.62) 8.284E-06               (X_U1.XA3.63)     .0975                   
 
-(X_U1.XA3.64)     .0993               (X_U1.XA3.65)     .0993                   
+(X_U1.XA3.64)     .0975               (X_U1.XA3.65)     .0975                   
 
-(X_U1.XA3.66)     .0993               (X_U1.XA3.67)     .0993                   
+(X_U1.XA3.66)     .0975               (X_U1.XA3.67)     .0975                   
 
-(X_U1.XA3.68)     .0993               (X_U1.XA3.69)     .0993                   
+(X_U1.XA3.68)     .0975               (X_U1.XA3.69)     .0975                   
 
-(X_U1.XA3.70)     .0993               (X_U1.XA3.71)     .0993                   
+(X_U1.XA3.70)     .0975               (X_U1.XA3.71)     .0975                   
 
 (X_U1.XA3.72)     .0010               (X_U1.XA3.73)    -.0090                   
 
@@ -292,7 +292,7 @@ Starting pseudo-transient algorithm.
 
 (X_U1.XA3.112) -144.0000              (X_U1.XA3.113)  144.0000                  
 
-(X_U1.XA3.114) 10.46E-09              (X_U1.XA3.115)     .0010                  
+(X_U1.XA3.114) 10.31E-09              (X_U1.XA3.115)     .0010                  
 
 (X_U1.XA3.116)     .0010              (X_U1.XA3.117)     .0010                  
 
@@ -304,7 +304,7 @@ Starting pseudo-transient algorithm.
 
 (X_U1.XA3.124)    -.7500              (X_U1.XA3.125)     .0025                  
 
-(X_U1.XA3.126) 984.3E-06              (X_U1.XA3.127) 80.00E-06                  
+(X_U1.XA3.126) 965.8E-06              (X_U1.XA3.127) 80.00E-06                  
 
 (X_U1.Xe_nn.3)    0.0000              (X_U1.Xe_nn.4)    0.0000                  
 
@@ -338,7 +338,7 @@ Starting pseudo-transient algorithm.
 
 (X_U1.XA2.VIMON2)-896.4E-06           (X_U1.XA3.CLAMP3)     .0010               
 
-(X_U1.XA3.SW_OL3) 1.504E-12           (X_U1.XA3.VIMON3) 984.3E-06               
+(X_U1.XA3.SW_OL3) 1.504E-12           (X_U1.XA3.VIMON3) 965.8E-06               
 
 (X_U1.XA3.VOUT_S3) 80.00E-06          (X_U1.XA3.VSENSE3)     .0010              
 
@@ -377,7 +377,7 @@ Starting pseudo-transient algorithm.
     X_U1.XA3.V_ISCp3  -1.800E-08
     X_U1.XA3.V_GRn3   1.440E-07
     X_U1.XA3.V_GRp3  -1.440E-07
-    X_U1.XA3.V3   9.843E-07
+    X_U1.XA3.V3   9.658E-07
     X_U1.XU2.VSENSE  -8.988E-07
     X_U1.XA2.V2  -8.964E-07
     X_U1.XA1.V1  -9.028E-07
@@ -391,9 +391,9 @@ Reducing minimum delta to make the circuit converge.
 
           JOB CONCLUDED
 
-**** 05/09/20 16:53:38 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 06/01/20 23:43:35 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-test_2"  [ E:\PCB_ESP_CON_USB\Simulaciones\NILM_PROJECT_TEST2-PSpiceFiles\SCHEMATIC1\test_2.sim ] 
+ ** Profile: "SCHEMATIC1-test_2"  [ e:\pcb_esp_usb\simulaciones\nilm_project_test2-pspicefiles\schematic1\test_2.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -403,5 +403,5 @@ Reducing minimum delta to make the circuit converge.
 
 
 
-  Total job time (using Solver 1)   =        2.67
+  Total job time (using Solver 1)   =        2.86
 

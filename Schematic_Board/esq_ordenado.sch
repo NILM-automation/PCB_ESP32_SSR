@@ -13349,6 +13349,53 @@ https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/PT-2-5-2-5-
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,73.66,83.82,U1,3V3,3.3V,,,"/>
+<approved hash="202,1,167.64,142.24,U2,!RI,,,,"/>
+<approved hash="104,1,132.08,144.78,U2,VBUS,VUSB,,,"/>
+<approved hash="104,1,132.08,149.86,U2,VDD,3.3V,,,"/>
+<approved hash="202,1,167.64,134.62,U2,!CTS,,,,"/>
+<approved hash="202,1,167.64,144.78,U2,!DCD,,,,"/>
+<approved hash="104,1,132.08,147.32,U2,REGIN,VUSB,,,"/>
+<approved hash="202,1,167.64,132.08,U2,!DSR,,,,"/>
+<approved hash="104,1,254,195.58,U3,VCC,VUSB,,,"/>
+<approved hash="104,1,256.54,76.2,U4,-VS,V-,,,"/>
+<approved hash="104,1,215.9,88.9,U4,+VS,V+,,,"/>
+<approved hash="105,1,0,54.61,N$1,,,,,"/>
+<approved hash="105,1,271.78,7.62,N$10,,,,,"/>
+<approved hash="108,1,337.82,15.24,N$1,,,,,"/>
+<approved hash="108,1,337.82,22.86,N$1,,,,,"/>
+<approved hash="108,1,246.38,167.64,N$1,,,,,"/>
+<approved hash="108,1,223.52,15.24,N$1,,,,,"/>
+<approved hash="108,1,187.96,167.64,N$1,,,,,"/>
+<approved hash="108,1,187.96,60.96,N$1,,,,,"/>
+<approved hash="108,1,0,167.64,N$1,,,,,"/>
+<approved hash="108,1,223.52,0,N$1,,,,,"/>
+<approved hash="108,1,223.52,22.86,N$1,,,,,"/>
+<approved hash="108,1,91.44,228.6,N$1,,,,,"/>
+<approved hash="108,1,337.82,60.96,N$1,,,,,"/>
+<approved hash="108,1,337.82,30.48,N$1,,,,,"/>
+<approved hash="108,1,187.96,109.22,N$1,,,,,"/>
+<approved hash="108,1,0,109.22,N$1,,,,,"/>
+<approved hash="108,1,337.82,167.64,N$1,,,,,"/>
+<approved hash="108,1,246.38,109.22,N$1,,,,,"/>
+<approved hash="108,1,187.96,228.6,N$1,,,,,"/>
+<approved hash="108,1,187.96,0,N$1,,,,,"/>
+<approved hash="108,1,337.82,109.22,N$1,,,,,"/>
+<approved hash="108,1,91.44,109.22,N$1,,,,,"/>
+<approved hash="108,1,320.04,7.62,N$10,,,,,"/>
+<approved hash="110,1,320.04,0,N$1,N$10,,,,"/>
+<approved hash="110,1,337.82,7.62,N$1,N$10,,,,"/>
+<approved hash="110,1,223.52,7.62,N$1,N$10,,,,"/>
+<approved hash="113,1,100.33,7.94173,LED1,,,,,"/>
+<approved hash="113,1,22.1827,64.6379,J5,,,,,"/>
+<approved hash="113,1,22.1827,34.1579,J6,,,,,"/>
+<approved hash="113,1,163.237,67.1779,J1,,,,,"/>
+<approved hash="113,1,163.237,34.1579,J2,,,,,"/>
+<approved hash="113,1,57.1077,203.396,JP1,,,,,"/>
+<approved hash="113,1,54.61,183.202,LED2,,,,,"/>
+<approved hash="113,1,22.1827,82.6821,J3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
